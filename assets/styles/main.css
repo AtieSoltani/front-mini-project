@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*background-color: #F8F9FD;*/
+@font-face {
+  font-family: "IRANYekanRd";
+  src: url('~/assets/styles/fonts/iranyekan.ttf');
+}
+
+@font-face {
+  font-family: "vazirEOT";
+  src: url('~/assets/styles/fonts/vazir.ttf');
+}
+
+*{
+  direction: rtl;
+  font-family: "IRANYekanRd", serif;
+
+}
